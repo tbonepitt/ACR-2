@@ -96,6 +96,7 @@ div.owl-prev,div.owl-next{
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 @media only screen and (max-width: 600px) {
 
   .item .figure-img {

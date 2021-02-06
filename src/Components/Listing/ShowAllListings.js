@@ -57,6 +57,7 @@ class ShowAllListings extends Component {
                   width={220}
                   height={220}
                   src={listing.Floorplan[0].File[0].Src[0]}
+                  
                 />
               </Link>
               <Card.Body></Card.Body>

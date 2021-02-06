@@ -51,7 +51,7 @@ h1, h2{
 }
 .rental_price_btn{
   background: linear-gradient(to right, #487fee, #32fa95);
- 
+  margin-right: 5px;
   color: #252525;
 }
 .btn-primary.disabled, .btn-primary:disabled {

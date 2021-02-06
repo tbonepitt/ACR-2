@@ -247,7 +247,8 @@ class ViewListing extends Component {
         <Row>
           <Col xs={12} md={12}>
             <FacebookShareButton
-              url={`http://localhost:3000/view-listing/${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}
+              url={`https://alleghenycityrealty.managebuilding.com/Resident/rental-application/apply?listingId=
+              ${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}
               quote={`Beautiful Listing available @ ${this.state.searchData[0].currentProperty.Address[0].Address[0]}`}
               hashtag="#listing-avail"
             >
@@ -255,7 +256,8 @@ class ViewListing extends Component {
             </FacebookShareButton>
 
             <TwitterShareButton
-              url={`http://localhost:3000/view-listing/${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}
+              url={`https://alleghenycityrealty.managebuilding.com/Resident/rental-application/apply?listingId=
+              ${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}
               caption={`Beautiful Listing available @ ${this.state.searchData[0].currentProperty.Address[0].Address[0]}`}
               hashtag="#listing-avail"
               title={`Beautiful Listing available @ ${this.state.searchData[0].currentProperty.Address[0].Address[0]}`}
@@ -264,7 +266,8 @@ class ViewListing extends Component {
             </TwitterShareButton>
 
             <LinkedinShareButton
-              source={`http://localhost:3000/view-listing/${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}
+              source={`https://alleghenycityrealty.managebuilding.com/Resident/rental-application/apply?listingId=
+              ${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}
               summary={`Beautiful Listing available @ ${this.state.searchData[0].currentDesc}`}
               title={`Beautiful Listing available @ ${this.state.searchData[0].currentProperty.Address[0].Address[0]}`}
               url={`http://localhost:3000/view-listing/${this.state.searchData[0].currentFloorPlan.Identification[0].IDValue}`}

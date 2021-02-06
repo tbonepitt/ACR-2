@@ -52,8 +52,14 @@ p {
   color: #707070;
 }
 
-img {
-  max-width: 100%;
+
+.card-img{
+  
+  float: left;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+
 }
 a:hover,
 a:focus {
