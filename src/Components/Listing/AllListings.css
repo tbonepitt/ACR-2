@@ -1,0 +1,48 @@
+.filter-form{
+    display: block;
+    padding: 20px;
+    background: #30caa0;
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    .filter-form {
+      display: block;
+    }
+  
+    .filter-form > * {
+      flex: 1 1 100%;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .slider {
+      max-width: 100%;
+    }
+    /* .filter-form input,
+    .filter-form select {
+      width: 100%;
+      margin-bottom: 20px;
+    } */
+  }
+  
+  @media (min-width: 1200px) {
+      .container {
+          max-width: 1170px;
+      }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* .filter-form select {
+      width: calc(15% - 10px);
+    } */
+  }

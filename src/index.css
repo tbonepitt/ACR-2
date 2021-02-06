@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+  color: #252525;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 13.9px;
+  color: #707070;
+}
+
+img {
+  max-width: 100%;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+Button, .button{
+ 
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    min-width: 120px;
+    text-align: center;
+    background: #30caa0;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+  
+}
